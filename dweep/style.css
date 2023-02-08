@@ -1,0 +1,101 @@
+.headContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #ffcd9e;
+}
+.head-left{
+    height: 500px;
+    width: 500px;
+    padding: 1rem;
+    flex-direction: column;
+    text-align: left;
+    font-size: large;
+
+}
+.head-right{
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+    padding: 1rem;
+}
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: #282828;
+    color: antiquewhite;
+    font-weight: 300;
+    font-size: large;
+}
+.foot-left{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width:600px;
+    max-width: 1200px;
+    padding: 1rem;
+    text-align: left;
+    margin-left: 100px;
+
+}
+.foot-right{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width:600px;
+    max-width: 1200px;
+    padding: 1rem;
+    text-align: right;
+    margin-right: 100px;
+
+    
+
+}
+.form{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 1rem;
+}
+input{
+    margin: 1rem;
+    border: solid 2px;
+    height: 30px;
+    width: 400px;
+}
+button{
+    color: #ffcd9e;
+    background-color: #282828;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram{
+    background: #ffcd9e;
+    color: rgb(184, 67, 0);
+
+  }
